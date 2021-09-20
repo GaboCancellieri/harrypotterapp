@@ -2,10 +2,15 @@ import { StyleSheet } from "react-native";
 import { IS_ANDROID } from "../../utils/constants";
 
 const styles = StyleSheet.create({
+    image: {
+        minHeight: 70,
+        width: '100%',
+    },
     mainContainer: {
         alignItems: 'center',
         flexDirection: 'row',
-        height: IS_ANDROID ? 50 : 40,
+        justifyContent: 'center',
+        height: IS_ANDROID ? 60 : 50,
     },
     sideButtonContainer: {
         height: 40,

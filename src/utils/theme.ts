@@ -1,4 +1,5 @@
 export const colors = {
+  almostWhite: '#F9F9F9',
   black: '#000000',
   griffindorRed: '#7F0909',
   griffindorYellow: '#FFC500',
